@@ -5,5 +5,10 @@
             android:checkable="true"
             android:id="@+id/is_fav"
             app:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_item_share"
+          app:showAsAction="ifRoom"
+          android:title="Share"
+          android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
 
 </menu>
