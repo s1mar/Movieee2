@@ -321,7 +321,7 @@ public class Detail_Fragment extends Fragment {
         Intent share = new Intent(Intent.ACTION_SEND);
         String x = "https://www.youtube.com/watch?v=" + trailerAd.getSource(0);
         share.setType("text/plain");
-        share.putExtra(Intent.EXTRA_TEXT,"Hey check out this movie :"+"Name "+titleText.getText().toString()+" \n here's the link :"+x);
+        share.putExtra(Intent.EXTRA_TEXT,"Hey check out this movie :"+"Name: "+titleText.getText().toString()+" \n here's the link :"+x);
         return share;
     }
 
