@@ -25,7 +25,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ShareActionProvider;
 import android.widget.TextView;
-
 import com.s1.movieee2.contentProviderImplementation.MContract;
 import com.s1.movieee2.contentProviderImplementation.MDBHelper;
 import com.s1.movieee2.support.Movie;
